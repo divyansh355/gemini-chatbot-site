@@ -5,8 +5,8 @@ import os
 from dotenv import load_dotenv
 
 app = Flask(__name__)
-CORS(app)  # This will allow all origins.
-# CORS(app, resources={r"/chat": {"origins": "http://localhost:5173"}}) # This will allows some specific origins
+# CORS(app)  # This will allow all origins.
+CORS(app, resources={r"/chat": {"origins": "https://gemini-chatbot-site.netlify.app"}}) # This will allows some specific origins
 
 load_dotenv()
 
