@@ -1,1 +1,1 @@
-# gemini-chatbot-site
+# gemini-chatbot-frontend
